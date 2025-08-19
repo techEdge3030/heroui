@@ -1,0 +1,17 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "tailwindCSS.experimental.configFile": {
+    "apps/docs/styles/globals.css": "apps/docs/**/*",
+    "packages/storybook/.storybook/style.css": ["packages/core/theme/**/*", "packages/components/**/*"],
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["([\"'`][^\"'`]*.*?[\"'`])", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  "cSpell.words": [
+    "heroui"
+  ],
+}
